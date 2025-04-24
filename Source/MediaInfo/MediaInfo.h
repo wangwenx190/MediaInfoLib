@@ -26,7 +26,7 @@
     #endif
 #else //defined(_WIN32) && !defined(__MINGW32__)
     #if __GNUC__ >= 4
-        #define MEDIAINFO_EXP __attribute__ ((visibility("default")))
+        #define MEDIAINFO_EXP /*__attribute__ ((visibility("default")))*/
     #else
         #define MEDIAINFO_EXP
     #endif
